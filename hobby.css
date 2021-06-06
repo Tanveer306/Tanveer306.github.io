@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    transition: .3s;
+}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+.container-full{
+    width: 98%;
+    margin: auto;
+}
+.clear{
+    overflow: hidden;
+}
+a{
+    text-decoration:none;
+}
+li{
+    list-style:none;
+}
+img{
+    max-width: 100%;
+}
+/*header*/
+.header-area{
+    background-image: linear-gradient(to right, #3d69aa, #0074a8, #007b9e, #008191, #2f8583);
+}
+#nav{
+    height: 70px;
+}
+.nav-logo {
+    float: left;
+}
+.nav-logo a {
+    font-size: 28px;
+    color: black;
+    padding: 20px 0;
+    display: block;
+}
+.main-menu {
+    float: right;
+}
+.main-menu ul{}
+.main-menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.main-menu ul li a {
+    padding: 25px 0;
+    color: black;
+    font-size: 18px;
+    display: block;
+    text-transform: uppercase;
+    position: relative;
+}
+.main-menu ul li a:before {
+    content: "";
+    position: absolute;
+    background: #1c4045;
+    height: 2px;
+    bottom: 15px;
+}
+.main-menu ul li a:hover:before{
+    width: 100%;
+}
+
+
+
+ol{
+    font-size: 25px;
+    color: #ab500f;
+    float: left;
+    width: 49%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+h2 {
+    font-size: 40px;
+    color: #993a25;
+    padding-top: 10px;
+}
+
+/* hobby */
+
+.container1{
+ width: 1000px;
+ margin: 20px auto 0;
+ display: table;
+ box-sizing: border-box;
+}
+.row{
+ margin: 20px 0;
+ transition: .5s;
+}
+.column{
+ background: #000;
+ display: table-cell;
+ padding: 10px;
+ width: 33.33333%;
+ text-align: center;
+ color: #fff;
+ vertical-align: middle;
+ border-right: 10px solid #fff;
+ border-style: 10px solid #fff;
+ transition: .5s;
+ font-size: 23px;
+}
+.row:nth-child(1) .column:nth-child(1){
+ background: #355486;
+}
+.row:nth-child(1) .column:nth-child(2){
+ background: #884f79;
+}
+.row:nth-child(1) .column:nth-child(3){
+ background: #2d9264;
+}
+@media ( max-width: 900px){
+ .container1{
+  margin: 0;
+  padding: 10px;
+  width: 100%;
+ }
+ .column{
+  width: 100%;
+  display: block;
+  margin: 10px 0;
+  border: none;
+  box-sizing: border-box;
+ }
+ .row{
+  margin: 0;
+ }
+}

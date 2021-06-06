@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	transition: .3s;
+}
+body{
+	font-family: 'Josefin Sans', sans-serif;
+}
+.container{
+	width: 1140px;
+	margin: auto;
+}
+.container-full{
+	width: 98%;
+	margin: auto;
+}
+.clear{
+	overflow: hidden;
+}
+a{
+	text-decoration:none;
+}
+li{
+	list-style:none;
+}
+img{
+	max-width: 100%;
+}
+/*header*/
+.header-area{
+	background-image: linear-gradient(to right, #3d69aa, #0074a8, #007b9e, #008191, #2f8583);
+}
+#nav{
+	height: 70px;
+}
+.nav-logo {
+    float: left;
+}
+.nav-logo a {
+    font-size: 28px;
+    color: black;
+    padding: 20px 0;
+    display: block;
+}
+.main-menu {
+    float: right;
+}
+.main-menu ul{}
+.main-menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.main-menu ul li a {
+    padding: 25px 0;
+    color: black;
+    font-size: 18px;
+    display: block;
+    text-transform: uppercase;
+    position: relative;
+}
+.main-menu ul li a:before {
+    content: "";
+    position: absolute;
+    background: #1c4045;
+    height: 2px;
+    bottom: 15px;
+}
+.main-menu ul li a:hover:before{
+	width: 100%;
+}
+
+/*  education   */
+
+.education-content{
+	padding: 40px 0;
+}
+.education-content h2{
+	text-align: center;
+	color: black;
+	text-transform: uppercase;
+	font-size: 45px;
+	padding-bottom: 20px;
+}
+.education-img{
+	 float: right;
+    width: 39%;
+    padding-top: 50px;
+}
+.education-text{
+	float: left;
+    width: 49%;
+    padding-top: 50px;
+}
+.education-text h3{
+	font-size: 30px;
+	color: teal;
+	text-transform: uppercase;
+	padding-bottom: 25px;
+}
+.education-text p {
+	font-size: 20px;
+	color: black;
+}
+
+.education-img1{
+    float: left;
+    width: 29%;
+    padding-top: 100px;
+}
+.education-text1{
+float: right;
+    width: 49%;
+    padding-top: 50px;
+}
+
+
+.education-text1 h3{
+    font-size: 30px;
+	color: teal;
+	text-transform: uppercase;
+	padding-bottom: 25px;
+}
+.education-text1 p {
+    font-size: 20px;
+	color: black;
+}
+
+.education-img2{
+float: right;
+    width: 39%;
+    padding-top: 100px;
+}
+.education-text2{
+	float: left;
+    width: 49%;
+    padding-top: 50px;
+}
+.education-text2 h3{
+    font-size: 30px;
+	color: teal;
+	text-transform: uppercase;
+	padding-top: 55px;
+}
+.education-text2 p {
+    font-size: 20px;
+	color: black;
+	padding-top: 25px;
+}
+
+table{
+	color: black;
+	background-color:#3d69aa;
+}
+h1{
+	color: teal;
+	padding-bottom: 10px;
+}

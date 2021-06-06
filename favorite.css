@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	transition: .3s;
+}
+body{
+	font-family: 'Josefin Sans', sans-serif;
+}
+.container{
+	width: 1140px;
+	margin: auto;
+}
+.container-full{
+	width: 98%;
+	margin: auto;
+}
+.clear{
+	overflow: hidden;
+}
+a{
+	text-decoration:none;
+}
+li{
+	list-style:none;
+}
+img{
+	max-width: 100%;
+    padding-left: 20px;
+    align-items: center;
+}
+
+/*header*/
+.header-area{
+	background-image: linear-gradient(to right, #3d69aa, #0074a8, #007b9e, #008191, #2f8583);
+}
+#nav{
+	height: 70px;
+}
+.nav-logo {
+    float: left;
+}
+.nav-logo a {
+    font-size: 28px;
+    color: black;
+    padding: 20px 0;
+    display: block;
+}
+.main-menu {
+    float: right;
+}
+.main-menu ul{}
+.main-menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.main-menu ul li a {
+    padding: 25px 0;
+    color: black;
+    font-size: 18px;
+    display: block;
+    text-transform: uppercase;
+    position: relative;
+}
+.main-menu ul li a:before {
+    content: "";
+    position: absolute;
+    background: #1c4045;
+    height: 2px;
+    bottom: 15px;
+}
+.main-menu ul li a:hover:before{
+	width: 100%;
+}
+
+h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    padding-left: 50px;
+}
+h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    padding-left: 50px;
+}
+a {
+    font-size: 20px;
+    padding-left: 50px;
+}
+h3 {
+    padding-top: 30px;
+    font-size: 35px;
+    padding-bottom: 30px;
+
+}
