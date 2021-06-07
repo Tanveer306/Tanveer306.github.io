@@ -150,7 +150,11 @@ float: right;
 
 table{
 	color: black;
-	background-color:#3d69aa;
+	background-color:#7c9ed8;
+	    font-weight: bold;
+}
+table th{
+	font-size: 25px;
 }
 h1{
 	color: teal;
